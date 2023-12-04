@@ -80,7 +80,7 @@
 }
 
 .image-text-container img {
-  width: 80%; /* Adjusted for better mobile responsiveness */
+  width: 100%;
   height: auto;
 }
 
@@ -126,17 +126,16 @@
 
 img {
   margin-top: 20px;
-  width: 80%; /* Adjusted for better mobile responsiveness */
+  width: 100%;
   height: auto;
 }
 
 .horizontal-container {
   background-color: #ccccff;
   display: flex;
-  flex-direction: column; /* Adjusted for better mobile responsiveness */
+  flex-direction: column;
   padding: 20px;
   margin-top: 20px;
-  width: 100%;
 }
 
 .text-column,
@@ -158,7 +157,7 @@ img {
 }
 
 .image-column img {
-  width: 80%; /* Adjusted for better mobile responsiveness */
+  width: 100%;
   height: auto;
 }
 
@@ -203,7 +202,7 @@ img {
   border-radius: 50px;
   cursor: pointer;
   margin: 10px;
-  margin-top: 10px; /* Corrected typo here */
+  margin-top: 10px;
 }
 
 /* Media Queries */
@@ -232,34 +231,8 @@ img {
     margin-top: 1rem;
   }
 
-  .image-text-container img {
-    width: 100%; /* Adjusted for full-width on mobile screens */
-  }
-
-  .horizontal-container {
-    flex-direction: column;
-  }
-
-  .arrow-column {
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .arrow-column i {
-    margin: 0 2px;
-  }
-
+  .image-text-container img,
   .image-column img {
     width: 100%; /* Adjusted for full-width on mobile screens */
   }
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Add styles for tablet screens if needed */
-}
-
-/* Desktop Styles (default) */
-@media only screen and (min-width: 1025px) {
-  /* Add styles for desktop screens if needed */
 }
